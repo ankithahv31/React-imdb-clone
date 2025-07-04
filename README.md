@@ -41,7 +41,7 @@ Users can:
 
 
 ## Live Demo
-https://app.netlify.com/teams/ankithahv31/projects
+https://kannada-imdb-clone.netlify.app/
 
 ## 🛠️ Getting Started
 
