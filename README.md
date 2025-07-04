@@ -1,34 +1,53 @@
+# 🎬 React IMDB Clone
 
-# React + Vite
+This is a React-based IMDb clone built using **Vite**. It showcases popular **Kannada movies** fetched from the **TMDB (The Movie Database) API**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Users can:
+- Search for Kannada-language movies
+- Add movies to their favorites
+- Maintain a personalized watchlist
+- Filter by genres and sort by ratings/popularity
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (UI)
+- **Vite** (build tool with HMR support)
+- **Axios** (for API calls)
+- **Tailwind CSS** (for styling)
+- **TMDB API** (movie data)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React IMDB Clone 🎬
+---
 
-This is a React-based IMDB clone that showcases popular Kannada movies using the TMDB API.  
-Users can search, browse, and manage their personalized watchlist by adding their favorite movies to it.
+## 🌟 Features
 
-## ✨ Features
-- 🔍 Search Kannada-language movies
-- ⭐ Add movies to your favorites
-- 📌 Maintain a watchlist of movies to watch later
-- 🎨 Genre-based filtering
-- 📊 Sort by ratings and popularity
+- 🔍 **Search** Kannada-language movies
+- ⭐ **Add to Favorites**
+- 📝 **Watchlist** management
+- 🎨 **Genre-based Filtering**
+- 📊 **Sort** by ratings and popularity
 
-## 🛠️ Built With
-- React
-- Axios (for API calls)
-- TMDB API
-- Tailwind CSS
+---
+
+## 🌐 API Used
+
+- **The Movie Database (TMDB) API**
+  - Endpoint used:  
+    ```
+    https://api.themoviedb.org/3/discover/movie?api_key=YOUR_API_KEY&with_original_language=kn&sort_by=popularity.desc
+    ```
+  - You must **provide your own TMDB API key**. Keep it private!
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/React-imdb-clone.git
+   cd React-imdb-clone
+
 
 ## 🌐 API Used
 [The Movie Database (TMDB)](https://www.themoviedb.org/) – Used to fetch Kannada movies using the `with_original_language=kn` query parameter.
