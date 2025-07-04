@@ -52,5 +52,4 @@ Users can:
 ## 🌐 API Used
 [The Movie Database (TMDB)](https://www.themoviedb.org/) – Used to fetch Kannada movies using the `with_original_language=kn` query parameter.
 
----
->>>>>>> 73553228cc58a90ee1380176d82e2560cba0b41b
+
